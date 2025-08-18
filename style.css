@@ -1,8 +1,26 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
 body {
+    font-size: 100%;
+    list-style-type: none;
+    height: 100vh;
+    box-sizing: border-box;
     background-color: black;
     color: #f6f6f6;
 }
 
-strong {
-    color: #22d4fd;
+.apresentacao {
+    display: flex;
+    align-items: center;
+}
+
+.nome-destacado {
+    color: aqua;
 }
